@@ -17,3 +17,20 @@ packages:
   gitUrl: https://github.com/AvivSimDS
   gitUsername: michalit0
   gitBranch: master
+services:
+- serviceName: project.emea02user_israeldemo2.integrations:Wrap2Packages
+  packages:
+  - name: Emea02user_IsraelDemo2Project
+    version: "1.0"
+  - name: emea02user_israelPJ
+    version: "1.0"
+  - name: ParsingUtilsPck
+    version: "1.0"
+- serviceName: IsraelDemoPackage.integrations:GetVersion
+  packages:
+  - name: emea02user_israelPJ
+    version: "1.0"
+- serviceName: ParsingUtilsPackage.integrations:TripleTokenize
+  packages:
+  - name: ParsingUtilsPck
+    version: "1.0"

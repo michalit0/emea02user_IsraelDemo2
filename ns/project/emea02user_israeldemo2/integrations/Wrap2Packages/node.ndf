@@ -45,14 +45,13 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">emea02user</value>
-    <value name="createdDate">1703589473543</value>
-    <value name="lastModifiedDate">1703589473543</value>
+    <value name="lastModifiedBy">emea02user</value>
+    <value name="lastModifiedDate">1703589501003</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">cfafebd5d07541738be9c556911b6bcf</value>
+      <value name="id">8157077694e245b99b6657fc82e2c5da</value>
       <value name="group">default</value>
-      <value name="name">Cloud Runtime</value>
-      <value name="executionPlaneType">cloud</value>
+      <value name="name">emea02user_il_presa_edge1</value>
+      <value name="executionPlaneType">onprem</value>
     </record>
     <value name="displayName">Wrap2Packages</value>
     <value name="description"></value>
