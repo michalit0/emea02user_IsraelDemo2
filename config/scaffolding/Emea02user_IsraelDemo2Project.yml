@@ -7,3 +7,13 @@ packages:
   gitUrl: https://github.com/michalit0/Emea02user_IsraelDemo2Project
   gitUsername: michalit0
   gitBranch: main
+- name: emea02user_israelPJ
+  gitServerName: michalit0
+  gitUrl: https://github.com/michalit0
+  gitUsername: michalit0
+  gitBranch: master
+- name: ParsingUtilsPck
+  gitServerName: michalit0
+  gitUrl: https://github.com/AvivSimDS
+  gitUsername: michalit0
+  gitBranch: master

@@ -7,14 +7,19 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="emea02user_israelPJ">1.0</value>
+    <value name="ParsingUtilsPck">1.0</value>
+  </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">1</value>
+  <value name="build">2</value>
   <null name="description"/>
   <value name="created_date">26-12-2023 10:42:37 GMT</value>
   <null name="extendedProperties"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2023-12-26T10:42:37.743999547Z</value>
+  <value name="lastUpdated">2023-12-26T10:42:38.691895812Z</value>
+  <value name="wmProjectId">fld04a3020b5b08729862d90</value>
+  <value name="creator">EMEA User</value>
 </Values>
