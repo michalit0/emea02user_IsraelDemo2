@@ -10,16 +10,17 @@
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="emea02user_israelPJ">1.0</value>
     <value name="ParsingUtilsPck">1.0</value>
+    <value name="ParseNames">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">7</value>
+  <value name="build">8</value>
   <null name="description"/>
   <value name="created_date">26-12-2023 10:42:37 GMT</value>
   <null name="extendedProperties"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2023-12-27T11:13:04.682885047Z</value>
+  <value name="lastUpdated">2023-12-27T14:18:09.319272666Z</value>
   <value name="wmProjectId">fld04a3020b5b08729862d90</value>
   <value name="creator">EMEA User</value>
 </Values>

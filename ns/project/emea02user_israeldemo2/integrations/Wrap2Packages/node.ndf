@@ -46,12 +46,12 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">emea02user</value>
-    <value name="lastModifiedDate">1703675584675</value>
+    <value name="lastModifiedDate">1703686689310</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">8157077694e245b99b6657fc82e2c5da</value>
+      <value name="id">cfafebd5d07541738be9c556911b6bcf</value>
       <value name="group">default</value>
-      <value name="name">emea02user_il_presa_edge1</value>
-      <value name="executionPlaneType">onprem</value>
+      <value name="name">Cloud Runtime</value>
+      <value name="executionPlaneType">cloud</value>
     </record>
     <value name="displayName">Wrap2Packages</value>
     <value name="description"></value>
@@ -93,6 +93,24 @@
         <number name="nodeIndex" type="Long">1</number>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">ParseNames</value>
+          <value name="groupName">ParseNames;1.0</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">parseNames:tokenize_name</value>
+          <value name="serviceName">parseNames:tokenize_name</value>
+          <value name="displayName">tokenize_name</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <number name="ui_step_index" type="Long">3</number>
+        <number name="nodeIndex" type="Long">2</number>
       </record>
     </record>
   </record>

@@ -17,6 +17,11 @@ packages:
   gitUrl: https://github.com/AvivSimDS
   gitUsername: michalit0
   gitBranch: master
+- name: ParseNames
+  gitServerName: emea02user_avivsimds_public_github
+  gitUrl: https://github.com/AvivSimDS
+  gitUsername: AvivSimDS
+  gitBranch: master
 services:
 - serviceName: project.emea02user_israeldemo2.integrations:Wrap2Packages
   packages:
