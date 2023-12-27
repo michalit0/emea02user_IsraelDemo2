@@ -31,6 +31,8 @@ services:
     version: "1.0"
   - name: ParsingUtilsPck
     version: "1.0"
+  - name: ParseNames
+    version: "1.0"
 - serviceName: IsraelDemoPackage.integrations:GetVersion
   packages:
   - name: emea02user_israelPJ
@@ -38,4 +40,8 @@ services:
 - serviceName: ParsingUtilsPackage.integrations:TripleTokenize
   packages:
   - name: ParsingUtilsPck
+    version: "1.0"
+- serviceName: parseNames:tokenize_name
+  packages:
+  - name: ParseNames
     version: "1.0"
