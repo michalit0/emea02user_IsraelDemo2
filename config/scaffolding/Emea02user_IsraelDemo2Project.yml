@@ -69,3 +69,7 @@ services:
     version: "1.0"
   - name: ParsingUtilsPck
     version: "1.0"
+- serviceName: pub.json:documentToJSONString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.656
