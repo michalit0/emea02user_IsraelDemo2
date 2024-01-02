@@ -5338,11 +5338,12 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">emea02user</value>
-    <value name="lastModifiedDate">1704122555500</value>
+    <value name="lastModifiedDate">1704167047708</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
+      <value name="id">e65b798068bf44bdbd7a173fb5bac42e</value>
+      <value name="group">default</value>
+      <value name="name">emea02user_AVIVSIMSAG_Rancher</value>
+      <value name="executionPlaneType">onprem</value>
     </record>
     <value name="displayName">ShipmentHandler</value>
     <value name="description"></value>
