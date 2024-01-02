@@ -45,3 +45,17 @@ services:
   packages:
   - name: ParseNames
     version: "1.0"
+- serviceName: project.emea02user_israeldemo2.integrations:ShipmentHandler
+  packages:
+  - name: Emea02user_IsraelDemo2Project
+    version: "1.0"
+  - name: ParseNames
+    version: "1.0"
+  - name: emea02user_israelPJ
+    version: "1.0"
+  - name: ParsingUtilsPck
+    version: "1.0"
+- serviceName: pub.flow:setCustomContextID
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.656
